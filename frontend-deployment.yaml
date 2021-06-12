@@ -24,7 +24,7 @@ spec:
         io.kompose.service: frontend
     spec:
       containers:
-        - image: ghcr.io/agoose77/multiplayer-crossword-frontend:latest
+        - image: ghcr.io/agoose77/multiplayer-crossword-frontend:0.1.1
           name: frontend
           ports:
             - containerPort: 8080

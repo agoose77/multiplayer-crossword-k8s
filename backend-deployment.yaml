@@ -24,7 +24,7 @@ spec:
         io.kompose.service: backend
     spec:
       containers:
-        - image: ghcr.io/agoose77/multiplayer-crossword-backend:latest
+        - image: ghcr.io/agoose77/multiplayer-crossword-backend:0.1.1
           name: backend
           ports:
             - containerPort: 5000
